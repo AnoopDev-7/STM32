@@ -1,0 +1,26 @@
+1.  git init
+2.  git remote add origin URL
+3.  git add --all  or git add .
+4.  git commit -m "message"
+5.  git push or git push -f origin master
+6.  git fetch or git pull
+7.   git reset HEAD~  for undo last commit
+7.  git status
+8.  git branch branch name  
+    git push -u origin branchname  and Add email id before create pull request
+    then create pull request
+9.  git checkout
+10. git add *.txt
+11. git log
+12. git checkout -b develop (create branch also)
+13. git push origin develop
+14. git branch --list
+15. git push origin --delete stage (remote) or git push origin -d stage
+16. git branch -d stage (local)
+17. git reflog
+18. git restore --staged <file path> // for perticular file unstaged
+19. git reset --mixed // (--mixed its flag its by default for all file to be unstaged)
+20. git reset --hard  // --hard flag to change remote and local both to be unstaged)
+21. git reset commit_id  // unstaged using commit_id
+22. git rm  // for remove files from local and staging and remote(Working Directory) 
+23. rm -Recurse -Force .git* for remove git from project
